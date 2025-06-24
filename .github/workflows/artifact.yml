@@ -30,12 +30,5 @@ jobs:
         name: hello-artifact
         path: ./artifacts
     
-    - name: Validation Downloaded
-      run: |
-        ls -lsrt
-        cd artifacts
-        pwd
-        ls -lsrt
-
     - name: Read file
-      run: cat artifacts/hello.text
+      run: cat ./artifacts/hello.txt
