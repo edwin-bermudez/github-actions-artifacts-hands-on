@@ -38,4 +38,4 @@ jobs:
         ls -lsrt
 
     - name: Read file
-      run: cat ./artifacts/hello.text
+      run: cat hello.text
